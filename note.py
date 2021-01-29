@@ -22,10 +22,10 @@ class PostRequest_json:
         try:
             response = r.post(url= self.url, data= json.dumps(self.data), headers= self.header)
             print("[*] Send Request Success ")
-            print("[*] Status code: {}".format(response))
+            print("[*] Status code: {}".format(response))3232323233232
             print("[*] Content: " + response.text)
         except:
-            print("[-] Send Request Fail ")
+            print("[-] Send Request Fail ")434343434
         time.sleep(sleep)
 
 class GetRequest:
